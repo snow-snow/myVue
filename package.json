@@ -1,0 +1,29 @@
+{
+  "name": "myVue",
+  "version": "0.0.1",
+  "description": "A MVVM project like vue",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "dev": "webpack --watch --mode development ",
+    "build": "webpack --mode production"
+  },
+  "files": [
+    "src",
+    "lib"
+  ],
+  "keywords": [
+    "MVVM"
+  ],
+  "author": "chenxueying",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^3.3.7",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.0.1"
+  }
+}
